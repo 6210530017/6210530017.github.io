@@ -7,4 +7,4 @@
 * Hometown: Nakhonsawan, Thailand
 * High school: Photisansuksa School, Nakhon Sawan, Thailand
 
-[My website](https://6210530017.github.io/)
+[My page](https://6210530017.github.io/)
