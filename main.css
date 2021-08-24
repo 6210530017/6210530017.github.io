@@ -17,12 +17,33 @@ body {
 .container {
     position: relative;
     width: 2000px;
-    height: 2000px;
-    padding: 30px;
+    padding: 20px;
     /*display: flex;*/
     justify-content: center;
     align-items: center;
     /*flex-wrap: wrap;*/
+}
+
+.container .main {
+    width: 480px;
+    margin: 0 auto;
+    height: 620px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container:hover .main {
+    filter: blur(4px);
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+.container .main:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .container:hover .card {
@@ -35,6 +56,70 @@ body {
     filter: blur(0px);
     transform: scale(1.1);
     opacity: 1;
+}
+
+.container:hover .piccard {
+    filter: blur(4px);
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+.container .piccard:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container .img {
+    height: 450px;
+    background: brown;
+}
+
+.container .img img {
+    height: 100%;
+}
+
+.container .content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.container .content p {
+    color: #666666;
+}
+
+.container .footer {
+    display: flex;
+    justify-content: space-between;
+    /*background: red;*/
+    align-items: center;
+    height: 55px;
+    background: white;
+}
+
+.container .ft-l {
+    display: flex;
+    align-items: center;
+    padding-left: 1.2rem;
+}
+
+.container .ft-l img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.container .ft-l p {
+    margin-left: .5rem;
+}
+
+.container .ft-r {
+    padding-right: 2rem;
 }
 
 .container .card {
@@ -58,7 +143,7 @@ body {
 }
 
 .container .card .cardcontent{
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -74,4 +159,44 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid #e5e5e5;
+}
+
+.container .card .cardcontent a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: brown;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.container .piccard {
+    position: relative;
+    width: 480px;
+    background: rgb(224, 56, 56);
+    margin: 0px auto;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    text-align: center;
+    align-items: center;
+}
+
+.container .piccard h2 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #aa0000;
+}
+
+.container .piccard .img {
+    height: 340px;
+    background: rgb(0, 255, 106);
+}
+
+.container .piccard .img img {
+    height: 100%;
 }
