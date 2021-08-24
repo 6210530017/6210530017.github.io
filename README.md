@@ -1,6 +1,10 @@
 # Pramote Siriparp
 ![pie](me.PNG)
-* ชื่อ: นายปราโมทย์ ศิริภาพ
-* ชื่อเล่น: พาย  
-* อายุ: 20 ปี  
-* ประวัติการศึกษา: โรงเรียนโพฒิสารศึกษา จ.นครสวรรค์
+* **Name: Pramote Siriparp**
+* **Nickname: Pie**
+* Age: 20 years old
+* Nationality: Thai
+* Hometown: Nakhonsawan, Thailand
+* High school: Photisansuksa School, Nakhon Sawan, Thailand
+
+[My website](https://6210530017.github.io/)
